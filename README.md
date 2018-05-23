@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Mano Core staging tree 0.12.2
+Mano Core staging tree 0.1.0
 ===============================
 
 
