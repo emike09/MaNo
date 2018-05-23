@@ -23,7 +23,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/manodev-the-man/mano/tags) are created to indicate new official,
-stable release versions of Mano Core.
+stable release versions of MaNo Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
