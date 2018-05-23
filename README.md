@@ -1,21 +1,21 @@
-Mano Core staging tree 0.1.0
+MaNo Core staging tree 0.1.0
 ===============================
 
 
-What is Mano?
+What is MaNo?
 ----------------
 
-Mano is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Mano uses peer-to-peer technology
+MaNo is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. MaNo uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Mano Core is the name of the open
+are carried out collectively by the network. MaNo Core is the name of the open
 source software which enables the use of this currency.
 
 
 License
 -------
 
-Mano Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+MaNo Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -26,14 +26,6 @@ The `master` branch is meant to be stable. Development is normally done in separ
 stable release versions of Mano Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
 
 ### Automated Testing
 
