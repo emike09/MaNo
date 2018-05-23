@@ -1,0 +1,6 @@
+usr/local/bin/mano-qt usr/bin
+share/pixmaps/mano32.xpm usr/share/pixmaps
+share/pixmaps/mano16.xpm usr/share/pixmaps
+share/pixmaps/mano128.png usr/share/pixmaps
+debian/mano-qt.desktop usr/share/applications
+debian/mano-qt.protocol usr/share/kde4/services/

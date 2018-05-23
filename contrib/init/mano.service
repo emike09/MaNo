@@ -1,0 +1,22 @@
+[Unit]
+Description=Mano's distributed currency daemon
+After=network.target
+
+[Service]
+User=manocore
+Group=manocore
+
+Type=forking
+PIDFile=/var/lib/manod/manod.pid
+ExecStart=/usr/bin/manod -daemon -pid=/var/lib/manod/manod.pid \
+-conf=/etc/manocore/mano.conf -datadir=/var/lib/manod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

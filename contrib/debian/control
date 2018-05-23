@@ -1,0 +1,68 @@
+Source: mano
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@mano.org>
+Uploaders: Holger Schinzel <holger@mano.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://manodev-the-man.github.io/mano/
+Vcs-Git: git://github.com/manodev-the-man/mano.git
+Vcs-Browser: https://github.com/manodev-the-man/mano
+
+Package: manod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Mano is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Mano uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Mano Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, manod, and the CLI tool
+ mano-cli to interact with the daemon.
+
+Package: mano-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Mano is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Mano uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Mano Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Mano-Qt, a GUI for Mano based on Qt.
+
+Package: mano-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Mano is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Mano uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Mano Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides mano-tx, a command-line transaction creation
+ tool which can be used without a mano daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

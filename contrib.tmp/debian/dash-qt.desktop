@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mano
+Comment=Mano P2P Cryptocurrency
+Comment[fr]=Mano, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Mano, eşten eşe kriptografik sanal para birimi
+Exec=mano-qt %u
+Terminal=false
+Type=Application
+Icon=mano128
+MimeType=x-scheme-handler/mano;
+Categories=Office;Finance;

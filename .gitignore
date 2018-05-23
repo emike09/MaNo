@@ -1,0 +1,147 @@
+# Prerequisites
+*.d
+
+<<<<<<< HEAD
+*.tar.gz
+
+*.exe
+src/mano
+src/manod
+src/mano-cli
+src/mano-tx
+src/test/test_mano
+src/qt/test/test_mano-qt
+src/bench/bench_mano
+
+# autoreconf
+Makefile.in
+aclocal.m4
+autom4te.cache/
+build-aux/config.guess
+build-aux/config.sub
+build-aux/depcomp
+build-aux/install-sh
+build-aux/ltmain.sh
+build-aux/m4/libtool.m4
+build-aux/m4/lt~obsolete.m4
+build-aux/m4/ltoptions.m4
+build-aux/m4/ltsugar.m4
+build-aux/m4/ltversion.m4
+build-aux/missing
+build-aux/compile
+build-aux/test-driver
+config.log
+config.status
+configure
+libtool
+src/config/mano-config.h
+src/config/mano-config.h.in
+src/config/stamp-h1
+share/setup.nsi
+share/qt/Info.plist
+
+src/univalue/gen
+
+src/qt/*.moc
+src/qt/moc_*.cpp
+src/qt/forms/ui_*.h
+
+src/qt/test/moc*.cpp
+libconftest.dylib*
+
+.deps
+.dirstamp
+.libs
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.pyc
+*.o
+*.o-*
+*.patch
+.mano
+*.a
+*.pb.cc
+*.pb.h
+
+*.log
+*.trs
+*.dmg
+
+*.json.h
+*.raw.h
+
+#libtool object files
+*.lo
+*.la
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+mano-qt
+Mano-Qt.app
+
+# Unit-tests
+Makefile.test
+mano-qt_test
+src/test/buildenv.py
+
+# Resources cpp
+qrc_*.cpp
+
+# Mac specific
+.DS_Store
+build
+
+#lcov
+*.gcno
+*.gcda
+/*.info
+test_mano.coverage/
+total.coverage/
+coverage_percent.txt
+=======
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+>>>>>>> master
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+<<<<<<< HEAD
+libmanoconsensus.pc
+src/qt/mano-qt.bash
+qa/pull-tester/tests-config.sh
+
+#development symlinks
+mano-cli
+manod
+mano-qt
+make
+=======
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> master
